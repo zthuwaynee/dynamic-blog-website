@@ -9,3 +9,8 @@ document.getElementById('saveBtn').onclick = () => {
   localStorage.setItem('posts', JSON.stringify(posts));
   alert('Saved!');
 };
+document.getElementById('deleteBtn').onclick = () => {
+  posts.splice(id, 1);
+  localStorage.setItem('posts', JSON.stringify(posts));
+  window.location.href = 'index.html';
+};
