@@ -8,3 +8,4 @@ form.addEventListener('submit', function (e) {
   localStorage.setItem('posts', JSON.stringify(posts));
   window.location.href = 'index.html';
 });
+if (!title || !content) return alert("All fields required!");
