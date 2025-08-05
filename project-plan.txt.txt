@@ -1,0 +1,7 @@
+Pages:
+- index.html: Lists all blog posts
+- new-post.html: Create blog post
+- post.html: View/edit/delete post
+Features:
+- CRUD via localStorage
+- Responsive styling
